@@ -1,7 +1,10 @@
 name: Health check
 on:
-  schedule:
-    - cron: '1 * * * *'
+  # schedule:
+  #   - cron: '1 * * * *'
+  push:
+    branches:
+      - master
 jobs:
     check_health:
       runs-on: ubuntu-18.04
