@@ -13,3 +13,6 @@ Start by running `npm install` inside the project folder
 `npm run eslint` to run eslint
 `npm run build` to make a production build
 `npm run start-prod` to run your production build
+
+
+The repo for exercises 11.21 and 11.22 is https://github.com/Mariam-Dessouki/Anecdotes/
